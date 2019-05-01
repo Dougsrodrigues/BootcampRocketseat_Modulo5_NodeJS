@@ -1,0 +1,17 @@
+** TESTES **
+
+* UNIT = são testes que não se conectão a nenhum outro meio de coleta de informações,
+teste de funções puras, sempre ira o mesmo resultado com os mesmos parametros
+
+* INTEGRATION = utiliza outro agente, por exemplo o banco de dados, api externa..., diferente do unit que uso somente o codigo
+
+* e2e = testa a aplicação como se fosse o user 
+
+* TDD =  TEST DRIVE DEVELOPMENT , desenvolvimento voltado a teste, escrever o teste antes mesmo da funcionalidade
+
+
+*usando sqlite pois não precisamos subir nenhum serviço pois ele cria um BD dentro de um
+arquivo fisico
+
+
+*npm supertest -D = faz requisições a api sem precisar startar o servidor
